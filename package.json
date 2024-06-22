@@ -1,0 +1,34 @@
+{
+  "name": "@archimondee/react-native-74-template",
+  "version": "1.3.1",
+  "description": "It is a minimalist React Native template with preconfigured common set of packages to start a new app.",
+  "scripts": {
+    "test": "exit 0",
+    "release:patch": "npx release-it patch",
+    "release:minor": "npx release-it minor",
+    "release:major": "npx release-it major"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archimondee/react-native-74-template.git"
+  },
+  "keywords": [
+    "template",
+    "boilerplate",
+    "starter",
+    "react-native",
+    "react",
+    "native"
+  ],
+  "author": "Gilang Aditya R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/archimondee/react-native-74-template/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^3.3.0",
+    "auto-changelog": "^2.4.0",
+    "release-it": "^14.11.5"
+  }
+}
